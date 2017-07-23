@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Treem JS demo</title>
+        <script type="text/javascript" src="jquery.js"></script>        
+        <script type="text/javascript" src="treem_1.0.0.js"></script>
+        <link rel="stylesheet" href="treem.css">
+    </head>
+    <body>
+        <div class="parentContainer">
+        </div>
+        <script>
+            $(function(){
+                treem.treemap({
+                    data : [35, 30, 13, 6,6, 3, 2, 2, 1, 1, 1],
+                    container : ".parentContainer",
+                    side : 700,
+                    unit : "px"
+                });
+            });
+        </script>
+    </body>
+</html>

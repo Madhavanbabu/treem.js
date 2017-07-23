@@ -1,0 +1,12 @@
+.tr-mp{
+    padding: 0px;
+    position: relative;
+}
+.tr-mp-sn{
+    position: absolute;
+    box-sizing: border-box;
+    background: #007;
+}
+.tr-mp-sn:hover{
+    border: 5px solid white;
+}
